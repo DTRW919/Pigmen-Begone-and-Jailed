@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pbj",
+  "version": "1.0",
+  "name": "Pigmen Begone & Jailed",
+  "description": "Stops zombified piglins from spawning in nether portals",
+  "authors": [
+    "DTRW"
+  ],
+  "contact": {},
+  "icon": "assets/icon.png",
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "mixins": [
+    "pbj.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": ">=26.2",
+    "java": ">=25"
+  }
+}
